@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-black;
+  }
+
+  h1 {
+    @apply text-3xl font-bold leading-tight text-black dark:text-primary lg:w-11/12 lg:text-5xl lg:leading-snug;
+  }
+
+  h2 {
+    @apply text-base font-medium tracking-wide text-darkGray dark:text-white lg:w-9/12 lg:text-xl lg:leading-relaxed;
+  }
+  /* h2 {
+ text-base font-medium tracking-wide text-darkGray dark:text-secondary lg:w-9/12 lg:text-xl lg:leading-relaxed
+  } */
+
+  h3 {
+    @apply text-base font-semibold text-black transition-all duration-300 dark:text-primary  lg:text-lg;
+  }
+
+  h4 {
+    @apply text-base font-medium tracking-wide text-darkGray dark:text-secondary lg:w-9/12 lg:text-xl lg:leading-relaxed;
+  }
+
+  h5 {
+    @apply text-base font-normal leading-relaxed tracking-wide text-darkGray dark:font-normal dark:text-customGray;
+  }
+
+  img {
+    @apply rounded-2xl border  object-cover dark:border-slate-100/10;
+  }
+
+  p {
+    @apply text-base font-normal leading-relaxed tracking-wide text-blogLight dark:font-normal dark:text-customGray;
+  }
+
+  h6 {
+    @apply line-clamp-2 overflow-hidden text-sm font-normal leading-relaxed tracking-wide text-darkGray dark:font-normal dark:text-secondary;
+  }
+
+  input {
+    @apply h-16 rounded-lg border bg-hoverGray p-5 text-sm  text-black transition duration-300 ease-out placeholder:text-sm  placeholder:font-normal placeholder:text-secondary hover:border-secondary focus:border-secondary focus:outline-none dark:border-slate-100/10 dark:bg-hoverBlack dark:text-primary dark:placeholder:text-darkGray dark:hover:border-slate-100/30   dark:focus:border-slate-100/30 md:w-80 md:text-base md:placeholder:text-base;
+  }
+}
+
+@layer components {
+  .nav {
+    @apply fixed z-10 cursor-pointer flex-row items-center  overflow-hidden rounded-full border bg-white bg-opacity-95 px-1 py-4 shadow-xl backdrop-blur-sm dark:border-slate-100/10 dark:bg-black dark:bg-opacity-75 lg:left-1/2 lg:flex lg:-translate-x-1/2 lg:transform;
+  }
+
+  .nav-links {
+    @apply text-secondary hover:text-primary;
+  }
+
+  .theme-toggle-btn {
+    @apply cursor-pointer rounded-full border border-gray-200 p-1 text-3xl text-darkGray shadow-sm transition duration-300 ease-in-out hover:bg-white dark:border-slate-100/10 dark:bg-hoverBlack  dark:text-secondary dark:hover:text-primary;
+  }
+
+  .underline {
+    @apply absolute -top-3 left-0 right-0 -z-10 rounded-full bg-primary py-6 text-primary   dark:bg-[#181818] md:-top-3;
+  }
+
+  .social-title {
+    @apply text-base font-semibold text-black  dark:text-primary  lg:text-base;
+  }
+
+  .social-desc {
+    @apply line-clamp-1 overflow-hidden text-sm font-normal leading-relaxed tracking-wide text-darkGray dark:font-normal dark:text-darkGray;
+  }
+
+  .social-icons {
+    @apply transition duration-300 ease-in-out cursor-pointer text-lg font-thin text-darkGray hover:animate-rotate-and-back dark:text-secondary dark:hover:text-primary md:text-xl;
+  }
+
+  .span {
+    @apply text-black dark:text-primary;
+  }
+
+  .cta-btn {
+    @apply inline-flex w-full cursor-pointer items-center justify-center rounded-full px-8 py-2.5 text-base font-medium leading-6 shadow-sm transition duration-200 ease-in-out hover:scale-105 active:translate-y-1 md:w-auto md:py-3;
+  }
+
+  .cta-btn-icons {
+    @apply ml-2 h-3 w-3 transform transition-transform duration-200 group-hover:animate-moveRightAndBack;
+  }
+
+  .home-sections-heading {
+    @apply text-base font-semibold tracking-widest text-black dark:text-primary md:pl-5 lg:text-lg;
+  }
+
+  .category {
+    @apply w-auto rounded-lg  border bg-customGray px-3 py-1 text-sm  font-extralight dark:border-slate-100/10 dark:bg-hoverBlack;
+  }
+
+  .description {
+    @apply line-clamp-2 overflow-hidden text-sm font-normal leading-relaxed tracking-wide text-darkGray dark:font-normal dark:text-secondary;
+  }
+}
