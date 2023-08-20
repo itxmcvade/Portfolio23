@@ -23,7 +23,7 @@ const SEO = ({ title, image, description, link }) => {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/images/apple-touch-icon.png"
+        href="/images/Navpic.png"
       />
       <link
         rel="icon"
