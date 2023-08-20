@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="flex flex-col items-start space-y-5 md:px-5">
             <h1>Projects</h1>
             <h4>
-            Exploring the digital realm one code at a time – here's a glimpse of my latest tech ventures.
+            Exploring the digital realm one code at a time – here is a glimpse of my latest tech ventures.
             </h4>
           </div>
           
