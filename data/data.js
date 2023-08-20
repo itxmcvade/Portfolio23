@@ -13,7 +13,7 @@ import {
 
 export const NavLinks = [
   { name: "Home", href: "/" },
-  { name: "Shop", href: "/shop" },
+  { name: "Projects", href: "/projects" },
   { name: "Blogs", href: "/blogs" },
   { name: "Stack", href: "/stack" },
   { name: "Contact", href: "/links" },
@@ -170,7 +170,7 @@ export const ContactData = [
     title: "Hire me",
     desc: "I design & build for selected clients",
     customBg: "green",
-    url: "https://tally.so/r/w542kZ",
+    url: "https://tally.so/r/mK5B8z",
   },
 
 
@@ -182,15 +182,9 @@ export const ContactData = [
     customBg: "purple",
     url: "mailto:isaiahxmcvade@gmail.com",
   },
-  {
-    id: 3,
-    Icon: HiOutlineSparkles,
-    title: "Socials",
-    desc: "Tailwind website templates",
-    customBg: "pink",
-  },
 
   
+
 ];
 
 export const StackData = [

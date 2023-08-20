@@ -6,7 +6,7 @@ import Navbar from "../components/reusable/Navbar";
 import Footer from "../components/reusable/Footer";
 import ProductCard from "../components/reusable/ProductCard";
 
-const Shop = () => {
+const Projects = () => {
   return (
     <div>
       {/* <DiscountBanner /> */}
@@ -21,9 +21,9 @@ const Shop = () => {
 
         <div className="mt-20  lg:mt-32 flex flex-col justify-center">
           <div className="flex flex-col items-start space-y-5 md:px-5">
-            <h1>Shop</h1>
+            <h1>Projects</h1>
             <h4>
-            Your one-stop-shop for cutting-edge digital products to elevate your brand, design, coding & productivity.
+            Exploring the digital realm one code at a time – here's a glimpse of my latest tech ventures.
             </h4>
           </div>
           
@@ -34,4 +34,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Projects;

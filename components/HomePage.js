@@ -39,7 +39,7 @@ const HomePage = ({ posts }) => {
 
         <div className="flex w-full flex-col items-center justify-center space-y-5 md:flex-row md:justify-start md:space-x-5 md:space-y-0">
           <button
-            onClick={() => window.open("https://tally.so/r/w542kZ", "_blank")}
+            onClick={() => window.open("https://tally.so/r/mK5B8z", "_blank")}
             className="cta-btn group bg-blcklight text-white"
           >
             Hire Me

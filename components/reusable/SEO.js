@@ -6,7 +6,7 @@ const SEO = ({ title, image, description, link }) => {
     <Head>
       {/* Meta Title */}
       <title>{title}</title>
-      <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+      <link rel="shortcut icon" href="/images/Navpic.png" />
         
       {/* Meta Description */}
       <meta name="description" content={description} />
